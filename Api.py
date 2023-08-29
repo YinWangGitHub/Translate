@@ -33,7 +33,7 @@ headers = {
 
 # You can pass more than one object in body.
 body = [{
-    'text' : 'Hello World!'
+    'text' : 'I love you, baby!'
 }]
 
 request = requests.post(constructed_url, params=params, headers=headers, json=body)
