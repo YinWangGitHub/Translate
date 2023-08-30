@@ -1,5 +1,7 @@
 import requests, uuid, json, os
 
+# import azure.cognitiveservices.translator as translator
+
 # Add your key and endpoint
 
 # location, also known as region.
@@ -21,7 +23,7 @@ if not TRANSLATOR_TEXT_SUBSCRIPTION_KEY or not TRANSLATOR_TEXT_ENDPOINT or not T
 
 
 path = '/translate?api-version=3.0'
-params = '&from=en&to=de&to=it&to=zh-Hans'
+params = '&from=en&to=zh-Hans&to=en'
 constructed_url = TRANSLATOR_TEXT_ENDPOINT + path + params
 
 headers = {
