@@ -52,7 +52,4 @@ def index_post():
         translated_text=translated_text,
         original_text=original_text,
         target_language=target_language
-   
  )
-
-    
