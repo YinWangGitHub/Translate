@@ -22,7 +22,7 @@ body= {
                     "targetUrl": targetSASUrl,
                     "storageSource": "AzureBlob",
                     "category": "general",
-                    "language": "es"
+                    "language": "zh-Hans"
                 }
             ]
         }
