@@ -1,13 +1,6 @@
 import requests, uuid, json, os
-# import automationassets
 
-# print (automationassets.get_automation_variable("myvariable"))
-
-# cred = automationassets.get_automation_credential("mycredential")
-# print (cred['username'])
-# print (cred['password'])
-
-
+# import azure.cognitiveservices.translator as translator
 
 # Add your key and endpoint
 
